@@ -1,6 +1,18 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,intellij,visualstudiocode,webstorm
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,intellij,visualstudiocode,webstorm
 
+
+/lib/
+/test/
+custom-elements.json
+# top level source
+my-element.js
+my-element.js.map
+my-element.d.ts
+my-element.d.ts.map
+# only generated for size check
+my-element.bundled.js
+
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -158,6 +170,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+/node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
